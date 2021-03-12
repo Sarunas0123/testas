@@ -34,6 +34,7 @@ getting(h);
 
 def getting(t):
     if type(t) is dict:
-        print(dict[t])
+        for x in t:
+            print(x)
     else:
      print(t)
